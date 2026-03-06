@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reparto - Consultorio Jurídico</title>
+  <!-- Aquí enlazas el CSS correcto -->
+  <link rel="stylesheet" href="styles_panel.css">
+</head>
+<body class="panel">
+
+  <!-- Barra superior -->
+  <header class="topbar">
+    <div class="logo-area">
+      <img src="img/logo.png" class="logo">
+      <h1>Reparto - Consultorio Jurídico</h1>
+    </div>
+    <div class="menu-buttons">
+      <a href="login.html"><button class="btn-logout">Cerrar Sesión</button></a>
+    </div>
+  </header>
+
+  <!-- Menú -->
+  <nav class="menu">
+    <a href="informe_Admin.html"><button>Informe Admin</button></a>
+    <a href="informe_Usu-Rad.html"><button>Informe Usu-Rad</button></a>
+    <a href="panel.html"><button class="active">Reporte Diario</button></a>
+    <a href="registrador_reparto.html"><button>Registrador Reparto</button></a>
+    <a href="registrar_usuario.html"><button>Registrar Usuario</button></a>
+    <a href="Edicion_reparto.html"><button>Edición de Reparto</button></a>
+    <a href="admin_usuarios.html"><button>Admin Usuarios</button></a>
+  </nav>
+
+  <!-- Contenido -->
+  <div class="container">
+    <h2>Reporte Diario</h2>
+    <div class="search-box">
+      <label>Fecha de reparto</label>
+      <input type="date">
+      <button class="btn-search">Buscar</button>
+    </div>
+  </div>
+
+  <!-- Tabla -->
+  <div class="table-container">
+    <div class="table-tools">
+      <button>+ Nuevo</button>
+      <button>Copiar</button>
+      <button>Excel</button>
+      <button>PDF</button>
+      <input type="text" placeholder="Buscar...">
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Radicado</th>
+          <th>Usuario</th>
+          <th>Año</th>
+          <th>N° Entrega</th>
+          <th>Clase</th>
+          <th>Autor</th>
+          <th>Observaciones</th>
+          <th>Sede</th>
+          <th>Fecha Reparto</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="10" style="text-align:center">
+            No hay registros disponibles
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
+
