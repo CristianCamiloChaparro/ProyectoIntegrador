@@ -1,0 +1,73 @@
+body.login {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  /* Fondo */
+  background-image: url("img/fondo.png");
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Centrar login */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, sans-serif;
+}
+
+/* Caja login */
+.login-container {
+  background: rgba(255,255,255,0.9);
+  padding: 40px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+
+/* Título */
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #b71c1c;
+}
+
+/* Inputs */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Recordarme */
+.remember {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+/* Botón */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #E53935;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #b71c1c;
+}
+
+/* Link */
+.link {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
